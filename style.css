@@ -1,0 +1,76 @@
+html, body{
+    font-family: Proxima, Verdana, sans-serif;
+    background-color:#E5E5E5; 
+    overflow-x: hidden; 
+}
+
+p{
+    color:#757575;
+}
+.headingOne{
+    font-size: 2.25em;
+    color: #037F8C;
+}
+.headingTwo{
+    font-size: 1.5em;
+    color:#757575;
+}
+
+@font-face {
+    font-family: Proxima;
+    src: url(font/ProximaNova-Regular.otf);
+  }
+.firstSection{
+    margin-top: 10em;
+    /* padding: 50px; */
+}
+input.form-control {
+    border: none;
+    background-color:#E5E5E5; 
+    border-bottom: 1px solid #757575;
+    outline:none;
+}
+.form-control:focus {
+    border-color:  #E5E5E5;
+    box-shadow: none;
+    border-bottom: 1px solid #037F8C;
+    background-color: #E5E5E5;
+}
+.form-check-input{
+    border: 1px solid #2F2F2F;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.forgot{
+    color:#F53759;
+}
+.submit{
+    background-color: #037F8C;
+    border-radius: 10px;
+    height:4em;
+    color: #F3F3F3;
+    outline: none;
+    width: 100%;
+    text-decoration:none;
+    border: 0 solid #037F8C;
+}
+.socials{
+    background-color: transparent;
+    border-radius: 10px;
+    height:4em;
+    color: #757575;;
+    outline: none;
+    width: 100%;
+    text-decoration:none;
+    border: 1px solid #2F2F2F;
+}
+.socials img{
+    padding-right: 6em;
+}
+.signUp{
+    color: #037F8C;
+    font-weight: bold;
+}
+.img-fluid{
+    overflow: hidden;
+}
