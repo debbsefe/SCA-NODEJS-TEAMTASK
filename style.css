@@ -2,6 +2,7 @@ html, body{
     font-family: Proxima, Verdana, sans-serif;
     background-color:#E5E5E5; 
     overflow-x: hidden; 
+    box-sizing: border-box;    
 }
 
 p{
@@ -22,7 +23,8 @@ p{
   }
 .firstSection{
     margin-top: 10em;
-    /* padding: 50px; */
+    padding-left: 7em;
+    padding-right: 7em;
 }
 input.form-control {
     border: none;
@@ -54,6 +56,13 @@ border-radius: 5px;
     text-decoration:none;
     border: 0 solid #037F8C;
 }
+.submit:hover{
+    background-color: #333;
+}
+.submit:focus{
+    background-color: #333;
+    border-radius: 10px;
+}
 .socials{
     background-color: transparent;
     border-radius: 10px;
@@ -64,13 +73,18 @@ border-radius: 5px;
     text-decoration:none;
     border: 1px solid #2F2F2F;
 }
+.socials:hover{
+    background-color: transparent;
+    border: 3px solid #037F8C;
+}
 .socials img{
-    padding-right: 6em;
+    padding-right: 4em;
 }
 .signUp{
     color: #037F8C;
     font-weight: bold;
 }
 .img-fluid{
-    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
 }
