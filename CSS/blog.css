@@ -1,0 +1,33 @@
+body {
+  background: #E5E5E5;
+  color: black;
+}
+
+.navbar {
+  border-bottom: #037F8C 3px solid;
+  opacity: 0.7;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.signup {
+  box-sizing: border-box;
+  background: #037F8C;
+  border-radius: 5px;
+  color: white;
+}
+
+.img {
+  width: 100%;
+  padding: 20px;
+}
+
+.read {
+  color: #037F8C;
+}
+
+.page-footer {
+  background: rgb(3, 100, 110);
+}
